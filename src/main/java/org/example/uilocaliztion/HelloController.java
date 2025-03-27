@@ -34,7 +34,7 @@ public class HelloController {
     public Label localTime;
     @FXML
     protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+        welcomeText.setText(rb.getString("hello"));
     }
 
     ResourceBundle rb;
